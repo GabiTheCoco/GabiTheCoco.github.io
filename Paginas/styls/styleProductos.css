@@ -1,0 +1,67 @@
+.cuerpo-lista{
+    width: 940px;
+    margin: 0 auto;
+    padding: 5em;
+}
+
+.cuerpo-lista li{
+    display:inline-block;
+    /* border: solid rgb(0,0,0); */
+    text-align: center;
+    vertical-align: top;
+    width: 30%;
+    /* background: #cccccc;  para probar tamaños de las box y que todo coincida*/
+    margin: 0 1.5%;
+
+
+    padding: 2em 1.2em;
+    box-sizing: border-box; /* para que las boxes no ocupen mas tamaño del definido de 940px definido */
+
+    border: 2px solid rgb(0,0,0); /* ancho, tipo, y color del borde a hacer */
+    /* border-top-left-radius: 10px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 40px; 
+    border-bottom-left-radius: 50px; 
+    
+    lo de arriba simplificado xd
+    */
+    border-radius: 12px;
+}
+
+.cuerpo-lista li:hover{ /* evento del movimiento del mouse en la caja */
+    border-color:#c78c19;
+}
+
+.cuerpo-lista li:active{ /* evento de click del mouse sobre la caja */
+    border-color:#088c19;
+}
+
+.cuerpo-lista h2{ 
+    font-size: 1.8em;
+    font-weight: bold;
+}
+
+.cuerpo-lista li:hover h2{ /* cuando se de el evento de click en la caja, pasa algo en el h2 dentro de esta */
+    font-size: 1.8em;
+}
+
+.cuerpo-descripcion{
+    font-size: 1.1em;
+}
+
+.cuerpo-precio{
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-top: 0.8em;
+}
+
+
+@media screen and (max-width: 480px){
+
+    header, .encabezado-elementos{
+        width:auto;
+    }
+
+
+
+}
