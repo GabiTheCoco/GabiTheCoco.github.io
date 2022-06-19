@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    outline-style: none;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/* CSS para pagina de productos */
+
+
+
+.encabezado{
+    /* background: url(fondito.png); */
+    background-color: #BBBBBB;
+    padding: 20px 0;
+}
+
+.encabezado-elementos{
+    position:relative; /*relativa a la posición absoluta que ya definimos. */
+    width: 940px;
+    margin: 0 auto;
+}
+
+.navegacion{
+    position:absolute;
+    top:110px;
+    right: 0px;
+}
+
+.navegacion li{
+    display:inline;
+    margin: 0 0 0 15px;
+}
+
+.navegacion a{
+    text-transform: uppercase;
+    color: rgb(0,0,0);
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+.navegacion a:hover{ /* evento del movimiento de mouse sobre el elemento */
+    color: #c78c19;
+    text-decoration: underline;
+}
+
+.piePagina{
+    text-align: center;
+    background-color: rgb(0,0,0);
+    padding: 2.5em;
+}
+
+
+.copyright{
+    color: rgb(255, 255, 255);
+    font-size: 1em;
+    margin: 1.2em;
+}
+/* .cuerpo{
+    /* padding: 50px; */
+    /* background: url(fondito.png); 
+} */
+
+
+
+
+
+@media screen and (max-width: 480px){ /* aplica estilos diferentes dependiendo de una condicion dada */
+    
+    /* RESPONSIVE GENERAL */
+
+    header, .encabezado-elementos{
+        width:auto;
+        height: auto;
+    }
+
+    h1{
+        text-align: center;
+    }
+
+    .navegacion{
+        position: static;
+        text-align: center;
+    }
+
+    
+ 
+}
