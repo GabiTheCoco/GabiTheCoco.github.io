@@ -132,13 +132,19 @@ p:first-line{
 
     .listaDiferenciales{
         margin: 0 0 1em 1em;
+        width: auto;
+        padding: none;
     }
-    .listaDiferenciales, .imagenDiferenciales{
-        width: 100%;
+
+    .listaDiferenciales li{
+        width: auto;
     }
 
     .imagenDiferenciales{
         box-shadow: none;
+        width:100%;
+        margin: none;
+        
     }
 
 
