@@ -126,8 +126,17 @@ p:first-line{
         width: auto;
     }
 
+    .mapa{
+        padding: 0px;
+    }
+
+    
     .ubicacion iframe{
         margin: 0 auto;
+    }
+
+    .diferenciales{
+        padding: none;
     }
 
     .listaDiferenciales{
@@ -144,7 +153,7 @@ p:first-line{
         box-shadow: none;
         width:100%;
         margin: none;
-        
+
     }
 
 
